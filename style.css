@@ -15,9 +15,18 @@ body {
 }
 .secondary-color {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-black{
+    color: #0B0223;
+}
+.text-gray{
+    color: #534C64;
 }
 
-/* ############ header ############# */
+/* ############ nav-bar ############# */
 
 .banner {
   display: flex;
@@ -31,6 +40,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  font-size: 2.5rem;
 }
 .menu-bar li {
   list-style-type: none;
@@ -57,4 +67,67 @@ body {
     padding: 0.5rem;
     flex-shrink: 0;
 }
+
+/* ############## features ############ */
+
+.goat{
+    background: #FFF;
+    background-image: url(images/Group\ 14.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.features-text{
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.second-h1{
+    font-size: 6rem;
+    font-weight: 800;
+}
+.features-desc p{
+    font-size: 1.25rem;
+    margin: 0.5rem;
+}
+.features-desc i{
+    color: red;
+    padding:0 0.8rem;
+}
+.features-desc button{
+    padding: 1.3rem 2.5rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+     
+}
+.pink{
+    background-color: #f948b2;
+    color: #FFF;
+}
+.sky{
+    background-color: #4EC5F7;;
+    color: #FFF;
+}
+    
+
 
