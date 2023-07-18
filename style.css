@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;700;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.primary-color {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.secondary-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+}
+
+/* ############ header ############# */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.menu-bar li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #3c354f;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu-bar button {
+  width: 16rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  border: none;
+  font-size: 1.2rem;
+}
+.fa-youtube{
+    color: #F61C0D;
+    padding: 0.5rem;
+    flex-shrink: 0;
+}
+
