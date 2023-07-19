@@ -131,3 +131,160 @@ body {
     
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################# small device ################## */
+
+
+@media screen and (max-width:488px) {
+  .banner{
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .menu-bar li{
+    display: block;
+  }
+  .container{
+    flex-direction: column-reverse;
+    margin: 1rem auto;
+    
+  }
+  .features-img img{
+    width: 80%;
+    
+  }
+  .goat{
+    background-image: none;
+  }
+  .features-text{
+    background-image: url(images/Group\ 14.png);
+    background-position: 100% 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+  .features-desc{
+    padding: 2rem ;
+  }
+  .features-desc p, .features-desc button{
+    font-size: 1rem;
+    margin: 0.8rem auto;
+  }
+}
+
+
+
+
+/* ################# medium device ################# */
+
+@media screen and (min-width:489px) and (max-width:786px) {
+  .banner{
+    flex-direction: column;
+    
+    width: 95vw;
+    gap: 2rem;
+    
+  }
+  .features-img img{
+    width: 100%;
+  }
+  .container{
+    flex-direction: column-reverse;
+    margin: 1rem auto;
+  }
+  .goat{
+    background-image: none;
+  }
+  .features-text{
+    background-image: url(images/Group\ 14.png);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vw;
+    margin: 3rem;
+    padding: 3rem;
+  }
+}
