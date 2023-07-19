@@ -25,6 +25,9 @@ body {
 .text-gray{
     color: #534C64;
 }
+.text-white{
+  color: #FFF;
+}
 
 /* ############ nav-bar ############# */
 
@@ -89,9 +92,6 @@ body {
     gap: 1rem;
 }
 .features-text{
-    
-    
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,87 +272,50 @@ body {
   color: #f948b2;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ############## footer ############### */
+
+footer{
+  background: #0B0223;
+  display: grid;
+  place-content: center stretch;
+}
+.footer-logo{
+  padding-top: 5rem;
+  
+}
+.row-2{
+  padding: 4rem;
+  font-size: 1.3rem;
+}
+.social-media{
+  display: flex;
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+.fa-facebook{
+  background-color: #1877F2;
+  border-radius: 50%;
+}
+.terms{
+  display: flex;
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  font-size: 1rem;
+}
+.terms p{
+  font-weight: 500;
+  padding: 3rem 0;
+}
+.copyright{
+  color: #FFF;
+  text-align: center;
+  padding-bottom: 5rem;
+}
 
 
 
