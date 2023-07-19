@@ -141,8 +141,8 @@ body {
 .online{
   font-size: 3rem;
 }
-.collection{
-  font-size: 1.2rem;
+.collection-1{
+  font-size: 0.7rem;
 }
 .cards{
   display: flex;
@@ -201,10 +201,76 @@ body {
   color: #FFF;
   margin-bottom: 2rem;
 }
+
+/* ################# instant play ################ */
+
+
+.optional-img{
+  position: relative;
+  top: -300px;
+  left: -170px;
+}
+.play-text{
+  width: 50%;
+  height: 100%;
   
+  display: grid;
+  place-content: center center;
+  
+}
+.container{
+  
+  height: 70vh;
+  margin-bottom: 9rem;
+}
+.play-img{
+  width: 50%;
+  height: 100%;
+  align-items: end;
+}
+.play-text h3{
+  font-size: 3rem;
+}
+.play-text p{
+  font-size: 1.2rem;
+}
 
+/* ############## game type ############ */
+.game-type{
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  padding: 5rem 0;
+}
+.row-1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
 
-    
+}
+.action-games{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 50px;
+  background: #FFF;
+  padding: 0.5rem 1rem;
+}
+.row-2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.action-games:hover{
+  border: 2px solid #f948b2;
+  color: #f948b2;
+}
 
 
 
@@ -329,6 +395,19 @@ body {
     font-size: 1rem;
     margin: 0.8rem auto;
   }
+  .cards{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .collection{
+    line-height: 30px;
+    width: max-content;
+    margin-bottom: 2rem;
+  }
+  .online{
+    font-size: 1.8rem
+  }
+  
 }
 
 
@@ -362,5 +441,16 @@ body {
     width: 90vw;
     margin: 3rem;
     padding: 3rem;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+  }
+  .collection{
+    line-height: 30px;
+    width: max-content;
+    margin-bottom: 2rem;
   }
 }
