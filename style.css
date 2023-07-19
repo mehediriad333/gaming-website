@@ -61,6 +61,7 @@ body {
   background: rgba(11, 2, 35, 0.1);
   border: none;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 .fa-youtube{
     color: #F61C0D;
@@ -118,7 +119,7 @@ body {
     font-size: 1.3rem;
     font-weight: 600;
     border: none;
-     
+     cursor: pointer;
 }
 .pink{
     background-color: #f948b2;
@@ -128,6 +129,81 @@ body {
     background-color: #4EC5F7;;
     color: #FFF;
 }
+
+/* ############### main section ############# */
+
+/* ############## funny videos ############### */
+
+.funny-videos{
+    margin: 4rem auto;
+    text-align: center;
+}
+.online{
+  font-size: 3rem;
+}
+.collection{
+  font-size: 1.2rem;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 1rem auto;
+  
+}
+.cards-img{
+  width: 25%;
+}
+.cards-img p{
+  font-weight: 500;
+  line-height: 30px;
+  text-align: start;
+  padding-left: 1.2rem;
+}
+.img-overlay{
+  position: relative;
+  display: inline-block;
+}
+.linear-bg{
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 100%;
+  height: 99%;
+  border-radius: 16px;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.img-overlay:hover .linear-bg {
+  opacity: 1;
+
+}
+.overlay-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-weight: 600;
+  opacity: 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #f948b2;
+  transition: opacity 0.3s ease;
+}
+.img-overlay:hover .overlay-text{
+  opacity: 1;
+}
+.fa-circle-play{
+  color: #FFF;
+  margin-bottom: 2rem;
+}
+  
+
+
     
 
 
